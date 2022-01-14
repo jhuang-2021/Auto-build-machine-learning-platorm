@@ -1,0 +1,5 @@
+# digits: 10; # samples: 1797; # features 64
+init		time	inertia	homo	compl	v-meas	ARI	AMI	silhouette
+k-means++	0.196s	69485	0.613	0.660	0.636	0.482	0.632	0.151
+random   	0.108s	69952	0.545	0.616	0.578	0.415	0.574	0.136
+PCA-based	0.040s	72686	0.636	0.658	0.647	0.521	0.643	0.137
